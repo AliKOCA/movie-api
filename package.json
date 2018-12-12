@@ -12,5 +12,17 @@
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.0"
-  }
+  },
+  "description": "node.js Movie API",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliKOCA/movie-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliKOCA/movie-api/issues"
+  },
+  "homepage": "https://github.com/AliKOCA/movie-api#readme"
 }
