@@ -1,9 +1,10 @@
-const express = require('express');
-const router = express.Router();
+var express = require('express');
+var router = express.Router();
 
-/* GET movie listing. */
-router.get('/', (req, res, next) => {
-    res.json({ status: 1 });
+/* GET users listing. */
+router.get('/', function (req, res, next) {
+  //res.send('movie: respond with a resource');
+  res.json({ status: 1 });
 });
 
 module.exports = router;
