@@ -4,8 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var movieRouter = require('./routes/movie');
+const indexRouter = require('./routes/index');
+const movieRouter = require('./routes/movie');
+const directorRouter = require('./routes/director');
 
 var app = express();
 //db connection
@@ -22,7 +23,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/api/movie/', movieRouter);
+app.use('/api/movies/', movieRouter);
+app.use('/api/directors/', directorRouter);
 
 app.get("/api", (req, res) => {
   res.send("api");
