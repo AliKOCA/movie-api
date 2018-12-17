@@ -1,0 +1,100 @@
+{
+    "netice": "Tamam",
+    "veri": [
+        {
+            "_id": {
+                "_id": "5c174b7cd859f349eb161a08",
+                "name": "Emirhan",
+                "surname": "ERTÜRK",
+                "bio": "Türkiye'yi uyandırmaya çalışan ekibin parçası."
+            },
+            "movies": []
+        },
+        {
+            "_id": {
+                "_id": "5c174b6fd859f349eb161a06",
+                "name": "Aykut",
+                "surname": "KUŞKAYA",
+                "bio": "Türkiye'yi uyandırmaya çalışan ekibin parçası."
+            },
+            "movies": []
+        },
+        {
+            "_id": {
+                "_id": "5c174a5ba8cd31495c795b06",
+                "name": "Eşref Ziya",
+                "surname": "TERZİ",
+                "bio": "Türkiye'yi uyandırmaya çalışan ekibin parçası."
+            },
+            "movies": []
+        },
+        {
+            "_id": {
+                "_id": "5c174a48a8cd31495c795b03",
+                "name": "Taner",
+                "surname": "YÜNCÜOĞLU",
+                "bio": "Türkiye'yi uyandırmaya çalışan ekibin parçası."
+            },
+            "movies": []
+        },
+        {
+            "_id": {
+                "_id": "5c174a4fa8cd31495c795b04",
+                "name": "Ömer",
+                "surname": "KARAOĞLU",
+                "bio": "Türkiye'yi uyandırmaya çalışan ekibin parçası."
+            },
+            "movies": []
+        },
+        {
+            "_id": {
+                "_id": "5c174b76d859f349eb161a07",
+                "name": "Hakan",
+                "surname": "AYKUT",
+                "bio": "Türkiye'yi uyandırmaya çalışan ekibin parçası."
+            },
+            "movies": []
+        },
+        {
+            "_id": {
+                "_id": "5c174a35a8cd31495c795b02",
+                "name": "Ender",
+                "surname": "Doğan",
+                "bio": "İrfan Türküleriyle bizi tanıştıran hakiki sanatçı."
+            },
+            "movies": [
+                {
+                    "_id": "5c135c718e93b731b82123e0",
+                    "title": "Ender DOĞAN, İrfan Türküleri",
+                    "category": "türkü",
+                    "country": "Türkiye",
+                    "year": 1995,
+                    "imdb_score": 19000,
+                    "date": "2018-12-14T07:32:01.316Z",
+                    "__v": 0,
+                    "director_id": "5c174a35a8cd31495c795b02"
+                },
+                {
+                    "_id": "5c17601d516e0619bde1212b",
+                    "director_id": "5c174a35a8cd31495c795b02",
+                    "title": "Ender DOĞAN, İrfan Türküleri-2",
+                    "category": "türkü",
+                    "country": "Türkiye",
+                    "year": 1995,
+                    "imdb_score": 19000,
+                    "createdAt": "2018-12-17T08:36:45.248Z",
+                    "__v": 0
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_id": "5c174a55a8cd31495c795b05",
+                "name": "Tamer",
+                "surname": "DUMAN",
+                "bio": "Türkiye'yi uyandırmaya çalışan ekibin parçası."
+            },
+            "movies": []
+        }
+    ]
+}
