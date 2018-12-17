@@ -18,48 +18,13 @@ Node.JS Misalleri
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
 | /api/directors | `GET` | Empty | List all directors. |
-| /api/directors | `POST` | [
+| /api/directors | `POST` | 
     {
         "name": "Ender",
         "surname": "Doğan",
         "bio": "İrfan Türküleriyle bizi tanıştıran hakiki sanatçı."
-    },
-    {
-        "name": "Taner",
-        "surname": "YÜNCÜOĞLU",
-        "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    },
-    {
-        "name": "Ömer",
-        "surname": "KARAOĞLU",
-        "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    },
-    {
-        "name": "Tamer",
-        "surname": "DUMAN",
-        "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    },
-    {
-        "name": "Aykut",
-        "surname": "KUŞKAYA",
-        "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    },
-    {
-        "name": "Hakan",
-        "surname": "AYKUT",
-        "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    },
-    {
-        "name": "Emirhan",
-        "surname": "ERTÜRK",
-        "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    },
-    {
-        "name": "Eşref Ziya",
-        "surname": "TERZİ",
-        "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    } 
-] | Create a new director. |
+    }
+ | Create a new director. |
 | /api/directors/:director_id | `GET` | Empty | Get a director. |
 | /api/directors/:director_id | `PUT` | {'name':'foo', 'surname':'bar', 'bio': 'lorem'} | Update a director with new info. |
 | /api/directors/:director_id | `DELETE` | Empty | Delete a director. |
