@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "5c135c718e93b731b82123e0",
+        "title": "Ender Doğan - İrfan Türküleri 2010",
+        "category": "irfan",
+        "country": "Türkiye",
+        "year": 2010,
+        "imdb_score": 12000,
+        "date": "2018-12-14T07:32:01.316Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c135d75be9f2332b3b5bd77",
+        "title": "Bir Güneş Doğuyor 1 ",
+        "category": "ezgi",
+        "country": "Türkiye",
+        "year": 1992,
+        "imdb_score": 20000,
+        "date": "2018-12-14T07:36:21.487Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c135d8abe9f2332b3b5bd78",
+        "title": "Bir Güneş Doğuyor 2",
+        "category": "ezgi",
+        "country": "Türkiye",
+        "year": 1993,
+        "imdb_score": 29000,
+        "date": "2018-12-14T07:36:42.027Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c135ddcbe9f2332b3b5bd79",
+        "title": "Zindan Şehirler",
+        "category": "ezgi",
+        "country": "Türkiye",
+        "year": 1990,
+        "imdb_score": 12000,
+        "date": "2018-12-14T07:38:04.080Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c1360192c32ef34e06f1cca",
+        "title": "Hicranlı Yüzler",
+        "category": "ezgi",
+        "country": "Türkiye",
+        "year": 1998,
+        "imdb_score": 25000,
+        "date": "2018-12-14T07:47:37.019Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c1367023754683560707fe9",
+        "title": "Hicranlı Yüzler-2",
+        "category": "ezgi",
+        "country": "Türkiye",
+        "year": 2000,
+        "imdb_score": 25000,
+        "date": "2018-12-14T08:17:06.799Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c136ab81b2e473a2986328c",
+        "title": "Gün Batıdan Doğmadan",
+        "category": "ezgi",
+        "country": "Türkiye",
+        "year": 1991,
+        "imdb_score": 80000,
+        "date": "2018-12-14T08:32:56.269Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c1390aa3bdc784a016f9a1c",
+        "title": "Taner Yüncüoğlu, Zor Sevda",
+        "category": "ezgi",
+        "country": "Türkiye",
+        "year": 1995,
+        "imdb_score": 12000,
+        "date": "2018-12-14T11:14:50.399Z",
+        "__v": 0
+    }
+]
