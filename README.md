@@ -58,7 +58,7 @@ Node.JS Misalleri
         "name": "Eşref Ziya",
         "surname": "TERZİ",
         "bio": "Türkiye'yi uyandırmaya çalışan grubun parçası."
-    }
+    } 
 ] | Create a new director. |
 | /api/directors/:director_id | `GET` | Empty | Get a director. |
 | /api/directors/:director_id | `PUT` | {'name':'foo', 'surname':'bar', 'bio': 'lorem'} | Update a director with new info. |

@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const Director = require("../models/Director");
-
+ 
 router.get('/', function (req, res, next) {
     const promise = Director.find({});
     promise.then((data) => {

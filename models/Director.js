@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-
+ 
 const DirectorSchema = Schema({
     name: String,
     surname: String,
