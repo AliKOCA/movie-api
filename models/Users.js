@@ -1,24 +1,21 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
- 
-const DirectorSchema = Schema({
-    name:  {
+
+
+const UserSchema = Schema({
+    username: {
         type: String,
         required: [true, '`{PATH}` alanına veri girilmesi mecburidir!'],
+        unique: [true, '`{PATH}` bu veri daha evvel girilmiş!'],
+        index: true,
         maxlength: [100, '`{PATH}` alanı (`{VALUE}`), `{MAXLENGTH}` haneden küçük olamaz!'],
         minlength: [5, '`{PATH}` alanı (`{VALUE}`), `{MINLENGTH}` haneden fazla karakter içermelidir!']
     },
-    surname:  {
+    password: {
         type: String,
         required: [true, '`{PATH}` alanına veri girilmesi mecburidir!'],
-        maxlength: [100, '`{PATH}` alanı (`{VALUE}`), `{MAXLENGTH}` haneden küçük olamaz!'],
+        maxlength: [500, '`{PATH}` alanı (`{VALUE}`), `{MAXLENGTH}` haneden küçük olamaz!'],
         minlength: [5, '`{PATH}` alanı (`{VALUE}`), `{MINLENGTH}` haneden fazla karakter içermelidir!']
-    },
-    bio:  {
-        type: String,
-        required: [true, '`{PATH}` alanına veri girilmesi mecburidir!'],
-        maxlength: [1000, '`{PATH}` alanı (`{VALUE}`), `{MAXLENGTH}` haneden küçük olamaz!'],
-        minlength: [50, '`{PATH}` alanı (`{VALUE}`), `{MINLENGTH}` haneden fazla karakter içermelidir!']
     },
     createdAt: {
         type: Date,
@@ -26,4 +23,4 @@ const DirectorSchema = Schema({
     }
 });
 
-module.exports = mongoose.model("director", DirectorSchema);
+module.exports = mongoose.model("user", UserSchema);

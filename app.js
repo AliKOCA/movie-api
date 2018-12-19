@@ -12,6 +12,10 @@ var app = express();
 //db connection
 const db = require("./helper/db.js")();//export edilen fonksiyonu direk çalıştırır.
 
+//Ayarlar
+const ayarlar = require("./config")
+app.set('api_secret_key', ayarlar.api_secret_key);
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
