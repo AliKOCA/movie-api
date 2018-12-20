@@ -8,7 +8,7 @@ module.exports = () => {
             useCreateIndex: true
         });
     mongoose.connection.on('open', () => {
-        console.log("MongoDB: Bağlantı sağlandı.");
+        //console.log("MongoDB: Bağlantı sağlandı.");
     });
     mongoose.connection.on('error', (err) => {
         console.log("MongoDB Bağlantı Hatası: " + err);

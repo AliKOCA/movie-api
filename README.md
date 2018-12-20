@@ -8,7 +8,7 @@ Node.JS Misalleri
 | /api/movie/ | `GET` |  Empty |  Return all movies. |
 | /api/movie/ | `POST` |  {"title": "Hicranlı Yüzler-2", "category": "ezgi", "country": "Türkiye", "year": 2000, "imdb_score": 25000} | Create new movie. |
 | /api/movies/:movie_id | `GET` | Empty | Get a movie. |
-| /api/movies/:movie_id | `PUT` | {'name':'foo', 'surname':'bar'} | Update a movie with new info. |
+| /api/movies/:movie_id | `PUT` | {"title": "Hicranlı Yüzler"} | Update a movie with new info. |
 | /api/movies/:movie_id | `DELETE` | Empty | Delete a movie. |
 | /api/movies/top10 | `GET` | Empty | Get the top 10 movies. |
 | /api/movies/between/:start_year/:end_year | `GET` | Empty | Movies between two dates. |

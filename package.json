@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "test": "node_modules/mocha/bin/mocha --exit --recursive"
+    "start:dev": "nodemon ./bin/www",
+    "test": "./node_modules/.bin/mocha --exit --recursive"
   },
   "dependencies": {
+    "app-module-path": "^2.2.0",
     "bcrypt-nodejs": "0.0.3",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
