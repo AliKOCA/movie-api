@@ -29,8 +29,8 @@ Node.JS Misalleri
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
-| /register | `POST` | { username: 'foo', password:'1234' } | Create a new user. |
-| /authenticate | `POST` | { username: 'foo', password:'1234' } | Generate a token. |
+| /register | `POST` | { username: 'pardus', password:'1234' } | Create a new user. |
+| /authenticate | `POST` | { username: 'pardus', password:'1234' } | Generate a token. |
 
 
 enjoy!
