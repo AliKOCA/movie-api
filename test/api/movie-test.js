@@ -5,7 +5,7 @@ const server = require('../../app');
 chai.use(chaiHttp);
 
 let token, movieId;
-
+    
 describe('/api/movies tests', () => {
 	before((done) => {
 		chai.request(server)
