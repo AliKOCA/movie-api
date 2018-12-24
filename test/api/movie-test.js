@@ -5,14 +5,16 @@ const server = require('../../app');
 chai.use(chaiHttp);
 
 let token, movieId;
-    
+
 describe('/api/movies tests', () => {
+
 	before((done) => {
 		chai.request(server)
 			.post('/authenticate')
-			.send({username: 'pardus', password: '123456'})
+			.send({ username: 'pardus', password: '123456' })
 			.end((err, res) => {
 				token = res.body.token;
+				console.log("Token 1: ", token);
 				done();
 			});
 	});
@@ -124,4 +126,3 @@ describe('/api/movies tests', () => {
 		});
 	});
 });
-
